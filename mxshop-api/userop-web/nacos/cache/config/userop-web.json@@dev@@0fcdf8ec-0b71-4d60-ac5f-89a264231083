@@ -1,0 +1,25 @@
+{
+  "name": "userop-web",
+  "host": "localhost",
+  "tags": [
+    "shop",
+    "imooc",
+    "flare",
+    "userop",
+    "web"
+  ],
+  "port": 8027,
+  "goods_srv": {
+    "name": "goods-srv"
+  },
+  "userop_srv": {
+    "name": "userop-srv"
+  },
+  "jwt": {
+    "key": "Go2Flare12138"
+  },
+  "consul": {
+    "host": "localhost",
+    "port": 8500
+  }
+}

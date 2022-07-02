@@ -1,0 +1,22 @@
+2022-04-24T21:19:42.208+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T21:19:42.263+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T21:19:42.307+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T21:19:42.310+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 
+2022-04-24T21:53:56.618+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T21:53:56.677+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T21:53:56.720+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T21:53:56.720+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 

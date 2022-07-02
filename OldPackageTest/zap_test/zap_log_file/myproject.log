@@ -1,0 +1,12 @@
+{"level":"info","ts":1648098196.678536,"caller":"zap_test/main.go:30","msg":"failed to fetch URL","url":"https://www.baidu.com","attempt":3,"backoff":1,"key":"value"}
+{"level":"info","ts":1648098196.678896,"caller":"zap_test/main.go:38","msg":"Failed to fetch URL: https://www.baidu.com"}
+{"level":"info","ts":1648098196.736192,"caller":"zap_test/main.go:43","msg":"failed to fetch URL","url":"https://www.baidu.com","attempt":3,"backoff":1}
+{"level":"info","ts":1648098196.736192,"caller":"zap_test/main.go:50","msg":"Failed to fetch URL:","":"https://www.baidu.com"}
+{"level":"info","ts":1648098327.6920817,"caller":"zap_test/main.go:32","msg":"failed to fetch URL","url":"https://www.baidu.com","attempt":3,"backoff":1,"key":"value"}
+{"level":"info","ts":1648098327.693142,"caller":"zap_test/main.go:40","msg":"Failed to fetch URL: https://www.baidu.com"}
+{"level":"info","ts":1648098327.7398512,"caller":"zap_test/main.go:45","msg":"failed to fetch URL","url":"https://www.baidu.com","attempt":3,"backoff":1}
+{"level":"info","ts":1648098327.7398512,"caller":"zap_test/main.go:52","msg":"Failed to fetch URL:","":"https://www.baidu.com"}
+{"level":"info","ts":1648098432.1576152,"caller":"zap_test/main.go:32","msg":"failed to fetch URL","url":"https://www.baidu.com","attempt":3,"backoff":1,"key":"value"}
+{"level":"info","ts":1648098432.1576152,"caller":"zap_test/main.go:40","msg":"Failed to fetch URL: https://www.baidu.com"}
+{"level":"info","ts":1648098432.1851254,"caller":"zap_test/main.go:45","msg":"failed to fetch URL","url":"https://www.baidu.com","attempt":3,"backoff":1}
+{"level":"info","ts":1648098432.1851254,"caller":"zap_test/main.go:52","msg":"Failed to fetch URL:","":"https://www.baidu.com"}

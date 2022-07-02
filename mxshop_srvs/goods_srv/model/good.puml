@@ -1,0 +1,78 @@
+@startuml
+skinparam dpi 80
+scale 13500 width
+scale 2200 height
+namespace model {
+    class 轮播图Banner << (S,Aquamarine) >> {
+        + Image string
+        + Url string
+        + Index int32
+
+    }
+    class BaseModel << (S,Aquamarine) >> {
+        + ID int32
+        + CreatedAt time.Time
+        + UpdatedAt time.Time
+        + DeletedAt gorm.DeletedAt
+        + IsDeleted bool
+
+    }
+    class 品牌Brands << (S,Aquamarine) >> {
+        + Name string
+        + Logo string
+
+    }
+    class 商品分类Category << (S,Aquamarine) >> {
+        + Name string
+        + ParentCategoryID int32
+        + ParentCategory *Category
+        + SubCategory []*Category
+        + Level int32
+        + IsTab bool
+
+    }
+    class 商品Goods << (S,Aquamarine) >> {
+        + CategoryID int32
+        + Category Category
+        + BrandsID int32
+        + Brands Brands
+        + OnSale bool
+        + ShipFree bool
+        + IsNew bool
+        + IsHot bool
+        + Name string
+        + GoodsSn string
+        + ClickNum int32
+        + SoldNum int32
+        + FavNum int32
+        + MarketPrice float32
+        + ShopPrice float32
+        + GoodsBrief string
+        + Images GormList
+        + DescImages GormList
+        + GoodsFrontImage string
+
+        + AfterCreate(tx *gorm.DB) error
+        + AfterUpdate(tx *gorm.DB) error
+        + AfterDelete(tx *gorm.DB) error
+
+    }
+    class 品牌分类GoodsCategoryBrand << (S,Aquamarine) >> {
+        + CategoryID int32
+        + Category Category
+        + BrandsID int32
+        + Brands Brands
+
+        + TableName() string
+
+    }
+}
+"model.BaseModel" *-- "model.轮播图Banner" #line:b2d235;text:red
+"model.BaseModel" *-- "model.品牌Brands" #line:b2d235;text:red
+"model.BaseModel" *-- "model.商品分类Category" #line:b2d235;text:red
+"model.BaseModel" *-- "model.商品Goods" #line:b2d235;text:red
+"model.BaseModel" *-- "model.品牌分类GoodsCategoryBrand" #line:b2d235;text:red
+
+
+
+@enduml

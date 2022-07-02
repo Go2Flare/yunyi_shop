@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../bobby-resources/前端源码/mall-master" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../bobby-resources/前端源码/online-store" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hotfix/gp-shop-ui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gp-manager-ui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gp-shop-ui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gp-shop-ui1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mxshop-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mxshop_srvs" vcs="Git" />
+  </component>
+</project>

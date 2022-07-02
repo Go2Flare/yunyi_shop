@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="Go" enabled="true" />
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../../代码/Lesson/MyUtils/TerIO" />
+    <content url="file://$MODULE_DIR$/../../../代码/SourceCode/jaeger" />
+    <content url="file://$MODULE_DIR$/../../../代码/SourceCode/opentelemetry-collector" />
+    <content url="file://$MODULE_DIR$/../../../代码/SourceCode/opentelemetry-go" />
+    <content url="file://$MODULE_DIR$/../../../代码/go_code/observability" />
+    <content url="file://$MODULE_DIR$/../bobby-resources/go源码" />
+    <content url="file://$MODULE_DIR$/../mx-shop-resource/OldPackageTest" />
+    <content url="file://$MODULE_DIR$/../mx-shop-resource/mxshop_srvs/tmp/nacos/cache" />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="online-store" />
+    <orderEntry type="module" module-name="client" />
+    <orderEntry type="module" module-name="gp-shop-ui" />
+    <orderEntry type="module" module-name="mall-master" />
+  </component>
+</module>

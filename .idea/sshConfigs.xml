@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="47.106.87.191" id="e135022c-9a57-43b7-84d6-f4925c3608f7" port="22" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="localhost" id="3c5a2291-6c74-484d-9194-52e8513f7692" port="22" customName="aliyun2" nameFormat="CUSTOM">
+        <option name="customName" value="aliyun2" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="120.24.221.188" id="cffa021d-1630-456d-9999-0e20ef875184" port="22" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig authType="PASSWORD" host="10.29.3.30" id="fe19b69a-70f7-434d-a7b4-7404048835d1" port="22" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</project>

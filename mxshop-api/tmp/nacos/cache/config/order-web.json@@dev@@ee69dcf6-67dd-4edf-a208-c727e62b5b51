@@ -1,0 +1,39 @@
+{
+  "name": "order-web",
+  "host": "172.29.113.151",
+  "tags": [
+    "shop",
+    "imooc",
+    "flare",
+    "order",
+    "web"
+  ],
+  "port": 8023,
+  "order_srv": {
+    "name": "order-srv"
+  },
+  "goods_srv": {
+    "name": "goods-srv"
+  },
+  "inventory_srv": {
+    "name": "inventory-srv"
+  },
+  "jwt": {
+    "key": "Go2Flare12138"
+  },
+  "redis": {
+    "host": "47.106.87.191",
+    "port": 6379
+  },
+  "alipay": {
+    "app_id":"",
+    "private_key":"",
+    "ali_public_key":"",
+    "notify_url":"",
+    "return_url":""
+  },
+  "consul": {
+    "host": "120.24.221.188",
+    "port": 8500
+  }
+}

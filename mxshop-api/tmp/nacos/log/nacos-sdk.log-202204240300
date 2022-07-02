@@ -1,0 +1,16 @@
+2022-04-24T03:02:06.457+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<Get "http://120.24.221.188:8848/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=c1872978-d51c-4188-a497-4e0cd20b97d5": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-04-24T03:02:11.469+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<Get "http://120.24.221.188:8848/nacos/v1/cs/configs?tenant=c1872978-d51c-4188-a497-4e0cd20b97d5&dataId=user-web.json&group=pro": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-04-24T03:02:16.479+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<Get "http://120.24.221.188:8848/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=c1872978-d51c-4188-a497-4e0cd20b97d5": context deadline exceeded (Client.Timeout exceeded while awaiting headers)> , result:<>
+2022-04-24T03:02:16.479+0800	[34mINFO[0m	get config from server error:Get "http://120.24.221.188:8848/nacos/v1/cs/configs?dataId=user-web.json&group=pro&tenant=c1872978-d51c-4188-a497-4e0cd20b97d5": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2022-04-24T03:02:16.480+0800	[31mERROR[0m	get config from cache  error:failed to read config cache file:tmp/nacos/cache\config\user-web.json@@pro@@c1872978-d51c-4188-a497-4e0cd20b97d5,err:open tmp/nacos/cache\config\user-web.json@@pro@@c1872978-d51c-4188-a497-4e0cd20b97d5: The system cannot find the file specified.  
+2022-04-24T03:03:28.797+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T03:03:28.829+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T03:03:28.881+0800	[31mERROR[0m	api</v1/cs/configs>,method:<GET>, params:<{"dataId":"user-web.json","group":"pro","tenant":"c1872978-d51c-4188-a497-4e0cd20b97d5"}>, call domain error:<[404] config data not exist
+> , result:<config data not exist
+>
+2022-04-24T03:03:28.882+0800	[34mINFO[0m	get config from server error:[404] config data not exist
+ 

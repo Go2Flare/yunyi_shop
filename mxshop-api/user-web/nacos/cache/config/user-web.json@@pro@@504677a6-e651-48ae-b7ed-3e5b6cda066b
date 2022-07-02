@@ -1,0 +1,30 @@
+{
+  "name": "user-web",
+  "host": "172.29.113.151",
+  "tags": [
+    "shop",
+    "imooc",
+    "flare",
+    "user",
+    "web"
+  ],
+  "port": 8021,
+  "user_srv": {
+    "name": "user-srv"
+  },
+  "jwt": {
+    "key": "Go2Flare12138"
+  },
+  "sms": {
+    "key": "LTAI5tQcYeruM4ouBix44XQZ",
+    "secrect": "WKaxXlmzyItvSj4TIBmmcfKHDt7sid"
+  },
+  "redis": {
+    "host": "47.106.87.191",
+    "port": 6379
+  },
+  "consul": {
+    "host": "120.24.221.188",
+    "port": 8500
+  }
+}

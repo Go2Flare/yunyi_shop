@@ -1,0 +1,27 @@
+{
+  "name": "goods-web",
+  "host": "localhost",
+  "tags": [
+    "shop",
+    "imooc",
+    "flare",
+    "goods",
+    "web"
+  ],
+  "port": 8022,
+  "goods_srv": {
+    "name": "goods-srv"
+  },
+  "jwt": {
+    "key": "Go2Flare12138"
+  },
+  "consul": {
+    "host": "localhost",
+    "port": 8500
+  },
+  "jaeger": {
+    "host": "47.106.87.191",
+    "port": 6831,
+    "name": "shop"
+  }
+}

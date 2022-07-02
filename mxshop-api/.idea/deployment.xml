@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="aliyun1" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="aliyun1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../../../../代码/Project/Test/testSendMsg" web="/" />
+            <mapping local="$PROJECT_DIR$/../../../../代码/go_code/observability/Code/multi_demo_test" web="/" />
+            <mapping local="$PROJECT_DIR$/../../mx-shop-resource/OldPackageTest" web="/" />
+            <mapping local="$PROJECT_DIR$/../../mx-shop-resource/mxshop-api/tmp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../mx-shop-resource/mxshop_srvs/tmp" web="/" />
+            <mapping deploy="/usr/pro_repo/shop_resource/shop_backend/gp-shop-apis" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/usr/pro_repo/shop_resource/shop_backend/gp-shop-srvs" local="$PROJECT_DIR$/../mxshop_srvs" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="aliyun2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../../../../代码/Project/Test/testSendMsg" web="/" />
+            <mapping local="$PROJECT_DIR$/../../../../代码/go_code/observability/Code/multi_demo_test" web="/" />
+            <mapping local="$PROJECT_DIR$/../../mx-shop-resource/OldPackageTest" web="/" />
+            <mapping local="$PROJECT_DIR$/../../mx-shop-resource/mxshop-api/tmp" web="/" />
+            <mapping local="$PROJECT_DIR$/../../mx-shop-resource/mxshop_srvs/tmp" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/usr/pro_repo/shopcode/shop_backend/gp-shop-srvs" local="$PROJECT_DIR$/../mxshop_srvs" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

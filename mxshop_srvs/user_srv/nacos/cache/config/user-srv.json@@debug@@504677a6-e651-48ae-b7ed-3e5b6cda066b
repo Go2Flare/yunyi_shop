@@ -1,0 +1,14 @@
+{
+    "name": "user-srv",
+    "mysql": {
+        "host": "47.106.87.191",
+        "port": 3306,
+        "db": "shop_user_srv",
+        "user": "root",
+        "password": "4.234.23123aa"
+    },
+    "consul": {
+        "host": "localhost",
+        "port": 8500
+    }
+}

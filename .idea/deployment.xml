@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="aliyun1" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="aliyun1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../bobby-resources/go源码" web="/" />
+            <mapping deploy="/usr/pro_repo/shop_resource/shop_front/gp-manager-ui" local="$PROJECT_DIR$/gp-manager-ui" web="/" />
+            <mapping deploy="/usr/pro_repo/shop_resource/shop_front/gp-manager-ui" local="$PROJECT_DIR$/gp-manager-ui" web="/" />
+            <mapping deploy="/usr/pro_repo/shop_resource/shop_backend/gp-shop-apis" local="$PROJECT_DIR$/mxshop-api" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="aliyun2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/usr/pro_repo/shopcode/shop_backend/gp-shop-apis" local="$PROJECT_DIR$/mxshop-api" web="/" />
+            <mapping deploy="/usr/pro_repo/shopcode/shop_backend/gp-shop-srvs" local="$PROJECT_DIR$/mxshop_srvs" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="master">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../bobby-resources/前端源码/online-store" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/usr/local/pro_repo/fib_demo_test" local="$PROJECT_DIR$/../../../代码/go_code/observability/Code/fib_demo_test" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+{
+    "name": "inventory-srv",
+    "mysql": {
+        "user": "root",
+        "password": "4.234.23123aa",
+        "host": "47.106.87.191",
+        "port": 3306,
+        "name": "shop_inventory_srv"
+    },
+    "consul": {
+        "host": "localhost",
+        "port": 8500
+    }
+}

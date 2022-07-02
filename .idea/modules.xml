@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OldPackageTest/jaeger_test/client/.idea/client.iml" filepath="$PROJECT_DIR$/OldPackageTest/jaeger_test/client/.idea/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hotfix/gp-shop-ui/.idea/gp-shop-ui.iml" filepath="$PROJECT_DIR$/../hotfix/gp-shop-ui/.idea/gp-shop-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bobby-resources/前端源码/mall-master/.idea/mall-master.iml" filepath="$PROJECT_DIR$/../bobby-resources/前端源码/mall-master/.idea/mall-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bobby-resources/前端源码/online-store/.idea/online-store.iml" filepath="$PROJECT_DIR$/../bobby-resources/前端源码/online-store/.idea/online-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shop-resource.iml" filepath="$PROJECT_DIR$/.idea/shop-resource.iml" />
+    </modules>
+  </component>
+</project>
